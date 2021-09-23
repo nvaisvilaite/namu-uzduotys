@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Lobster';
+  letter-spacing: 2px;
+}
+div {
+  width: 100%;
+  overflow-x: auto;
+}
+table {
+  border-collapse: collapse;
+  max-width: 100%;
+  width: 100%;
+  overflow-x: scroll;
+
+}
+td, th {
+  border: 2px solid yellow;
+  padding: 20px;
+  border-collapse: collapse;
+  font-weight: 600;
+  max-width: 100%;
+
+}
+
+td {
+  text-align:left;
+  background-color: purple;
+}
+th {
+  background-color: yellow;
+  color: black;
+}
+
+tr {
+  border-top: none;
+  color: white;
+}
+
+th:nth-last-of-type(even) {
+  background-color: orange;
+}

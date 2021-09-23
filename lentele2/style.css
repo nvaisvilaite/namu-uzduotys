@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Inconsolata';
+}
+table {
+  width: 100%;
+}
+div {
+  width: 100%;
+  overflow-x: auto;
+}
+
+td, th {
+
+  padding: 20px;
+  font-weight: 600;
+  max-width: 100%;
+  text-align: left;
+}
+
+th {
+  background-color: #7027A0;
+  color: white;
+  width: 100%;
+}
+
+tr {
+  border-top: none;
+  color: white;
+}
+table tr td, table tr th {
+  width: 25%;
+}
+
+tr:nth-of-type(odd) {
+  background-color: #F56FAD;
+}
+
+tr:nth-of-type(even) {
+  background-color: #C32BAD;
+}

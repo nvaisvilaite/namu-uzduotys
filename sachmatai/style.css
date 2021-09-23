@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+
+}
+
+div {
+  box-sizing: border-box;
+}
+
+ul {
+list-style-type: none;
+margin: 1px;
+width:100%;
+max-width:800px;
+margin-left:auto;
+margin-right:auto;
+}
+
+ul:before {
+  content: "";
+  clear: both;
+  display: table;
+}
+ul:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+li {
+  content: "";
+  background-color: green;
+  float: left;
+  width: 12.285%;
+  margin: 1%;
+  box-shadow:inset 0 0 0px 2px red;
+  position:relative;
+}
+
+li:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+li:before {
+  position:absolute;
+  background-color:red;
+  width:36%;
+  height:36%;
+  content:"";
+  display:block;
+  left:32%;
+  top:32%;
+}
+
+li:nth-last-of-type(even) {
+  background-color: red;
+  box-shadow:inset 0 0 0px 2px green;
+}
+
+li:nth-last-of-type(even):before {
+  background-color:green;
+}

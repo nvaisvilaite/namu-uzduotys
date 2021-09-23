@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Montserrat;
+}
+
+table {
+  margin: 20px;
+  width:100%;
+  max-width: 800px;
+
+}
+table, td, th {
+
+  border: 2px solid black;
+  padding: 10px;
+  border-collapse: collapse;
+  font-size: 20px;
+}
+
+table tr td, table tr th {
+  width: 25%;
+}
+
+td, th {
+  text-align: left;
+}
+th {
+  font-weight: 600;
+}
+
+table tr:nth-child(4) td {
+  background-color: orange;
+}
+
+table tr:nth-child(5) td {
+  background-color: blue;
+}
+
+table tr:nth-child(6) td {
+  background-color: green;
+}
